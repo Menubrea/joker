@@ -1,0 +1,31 @@
+{
+  "name": "joker",
+  "version": "0.1.0",
+  "description": "Application that tells jokes",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClovesPirate/joker.git"
+  },
+  "keywords": [
+    "jokes",
+    "app"
+  ],
+  "author": "Truls Haakenstad <truls.haakenstad@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClovesPirate/joker/issues"
+  },
+  "homepage": "https://github.com/ClovesPirate/joker#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
