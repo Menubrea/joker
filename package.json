@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ClovesPirate/joker#readme",
   "devDependencies": {
+    "eslint": "^8.26.0",
     "prettier": "^2.7.1"
   },
   "dependencies": {
